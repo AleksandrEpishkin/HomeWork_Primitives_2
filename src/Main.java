@@ -7,7 +7,7 @@ public class Main {
         int balance = 100;
         int replenishment = 1100;
         int bonus = 100;
-        int bonus_chek = replenishment / bonus;
+        int bonusСhek = replenishment / bonus;
 
 
         // Условным оператором проверяете превысила ли
@@ -16,7 +16,7 @@ public class Main {
         // на экран.
         int sum;
         if (replenishment >= 1000) {
-            sum = balance + replenishment + bonus_chek;
+            sum = balance + replenishment + bonusСhek;
         } else {
             sum = balance + replenishment;
         }
